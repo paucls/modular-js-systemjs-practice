@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>ES6 Module Loader Polyfill</title>
+    <meta charset="UTF-8">
+
+    <!-- Load libraries -->
+    <script src="bower_components/traceur/traceur.js"></script>
+    <script src="bower_components/es6-module-loader/dist/es6-module-loader-dev.js"></script>
+
+    <!-- Load module dynamically in the browser -->
+    <script>
+        System.import('./cat.js').then(function (module) {
+            var cat = new module.Cat();
+            cat.sayMew();
+        });
+    </script>
+</head>
+<body>
+<h1>ES6 Module Loader Polyfill example</h1>
+</body>
+</html>

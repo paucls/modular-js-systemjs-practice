@@ -1,0 +1,22 @@
+{
+  "name": "esm-polyfill-example",
+  "authors": [
+    "Paulo Clavijo."
+  ],
+  "description": "Code example of use of ES module polyfill",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-module-loader": "~0.17.11",
+    "traceur": "~0.0.111"
+  }
+}
