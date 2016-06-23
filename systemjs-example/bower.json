@@ -1,0 +1,22 @@
+{
+  "name": "systemjs-example",
+  "authors": [
+    "Paulo Clavijo."
+  ],
+  "description": "Code example of use of SystemJS",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "system.js": "~0.19.31",
+    "traceur": "~0.0.111"
+  }
+}
